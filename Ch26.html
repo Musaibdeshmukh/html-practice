@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box shadow and text shadow</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .card {
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: burlywood;
+            
+            /* box-shadow: offset-x offset-y color; */
+            /* box-shadow: 8px 10px slategray; */
+            /* box-shadow: -8px -10px slategray; */
+
+            /* box-shadow: offset-x offset-y blur-radius color; */
+            /* box-shadow: 7px 5px 10px slategray; */
+            /* box-shadow: -7px -5px 10px slategray; */
+
+            /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+            /* box-shadow: -7px -5px 10px 34px slategray; */
+            /* box-shadow: -7px -5px 10px 34px rgba(34, 184, 184, 0.5); */
+            
+            /* box-shadow: inset 3px 5px red; */
+            /* box-shadow: 3px 5px red, 3px 5px darkorchid; */
+        }
+        .card h2{
+            /* text-shadow: 2px 1px white; */
+            /* text-shadow: 3px 2px 2px white; */
+            text-shadow: -3px -2px 2px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="car-1">
+            <h2>This is Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum quo impedit voluptas quos obcaecati
+                corrupti veritatis necessitatibus doloremque ducimus soluta provident ad vel, nihil qui? Maiores fuga
+                corrupti at minus enim molestiae delectus. Dignissimos.</p>
+        </div>
+        <div class="card" id="car-2">
+            <h2>This is You</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore totam tempore maiores nesciunt perspiciatis eum sunt iure expedita, doloribus cum nostrum quo dolore, adipisci quaerat ut rem nulla hic soluta aut corrupti facere dolorem.</p>
+        </div>
+        <div class="card" id="car-3">
+            <h2>This is He/She</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sint maxime tenetur ullam ad non quod blanditiis officia nemo voluptatibus nesciunt et sunt eius voluptatum ducimus, nobis aliquid doloribus esse tempore quidem eligendi fugit?</p>
+        </div>
+    </div>
+</body>
+
+</html>
